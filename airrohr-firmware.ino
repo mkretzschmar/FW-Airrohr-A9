@@ -3472,7 +3472,7 @@ static void twoStageOTAUpdate() {
   fetch_name += lang_variant;
   fetch_name += F(".bin");
 
-  debug_outln_verbose(F("fetch_name: %s", fetch_name));
+  //debug_outln_verbose(F("fetch_name: %s", fetch_name));
 
   WiFiClientSecure client;
   BearSSL::Session clientSession;
